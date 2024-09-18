@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">StudingEnglishApp</string>
+    <string name="person">Человек</string>
+    <string name="incorrect">Неверно</string>
+    <string name="back">Назад</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="words_guessed">Слов пройдено: %1$d</string>
+    <string name="words_wrong">Слов не угадано: %1$d</string>
+    <string name="words_right">Слов угадано: %1$d</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Регистрация"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewRegistration"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/registr_enter_ic"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:hint="Email"
+        android:textColor="#000000"
+        android:background="@drawable/quest_button_ic"
+        android:paddingLeft="50dp"
+        android:paddingEnd="50dp"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmail"
+        android:hint="Password"
+        android:textColor="#000000"
+        android:background="@drawable/quest_button_ic"
+        android:paddingLeft="50dp"
+        android:paddingEnd="50dp"/>
+
+    <Button
+        android:id="@+id/buttonAlreadyHaveAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_centerHorizontal="true"
+        android:text="Уже есть аккаунт? Зайти"
+        android:textColor="@android:color/holo_blue_dark"
+        android:background="@android:color/transparent"
+        android:textAllCaps="false"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:id="@+id/buttonConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAlreadyHaveAccount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="Подтвердить" />
+
+</RelativeLayout>
